@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+  background-color: #ffffff;
+  color: #black;
+  margin: 30px;
+}
+
+header {
+  background-color: #BCFFB1;
+  color: #black;
+  padding: 20px;
+  }
+
+nav ul {
+  list-style-type: none;
+}
+  
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+  
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+table{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.prod{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    max-width: 300px;
+}
+
+td:hover{
+    background-color: silver;
+}
+
+.compra{
+    padding: 8px;
+    background-color: #023bad;
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.compra:hover{
+    background-color: rgba(0, 118, 172, 0.89);
+    color: black;
+}
+
+.espacio{
+    border: solid;
+    border-color: transparent;
+}
+
+.titulo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+hr{
+    width: 50%;
+}
+
+#contacto{
+    background-color: #ffbcdd;
+    color: white;
+}
+
+.contacto{
+    padding-top: 20px;
+    margin-left: 15px;
+}
+
+.menu:hover{
+    color: red;
+}
+
+h4{
+    padding-left: 15px;
+}
