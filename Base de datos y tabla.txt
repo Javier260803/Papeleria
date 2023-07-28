@@ -1,0 +1,11 @@
+CREATE DATABASE forms;
+
+USE forms;
+
+CREATE TABLE formulario(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    correo VARCHAR(50) NOT NULL UNIQUE,
+    mensaje VARCHAR(100) NOT NULL,
+    fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
